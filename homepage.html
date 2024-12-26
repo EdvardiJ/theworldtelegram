@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The World Telegram News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #102442;
+        }
+        header {
+            background: #35ce8d; /* Primary color */
+            color: #102442; /* Updated text color */
+            padding: 2rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background: #2441b1;
+            color: #f6f8fe;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: #f6f8fe;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1000px; /* Original width */
+            margin: auto;
+            padding: 2rem;
+        }
+        .featured {
+            background: #f4f4f4;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .featured h2 {
+            margin-top: 0;
+            font-size: 2rem;
+        }
+        .news-section {
+            margin-bottom: 3rem;
+        }
+        .news-section h3 {
+            border-bottom: 2px solid #2441b1;
+            padding-bottom: 0.75rem;
+            font-size: 1.5rem;
+        }
+        .article {
+            margin-bottom: 1.5rem;
+        }
+        .article h4 {
+            margin: 0;
+            font-size: 1.25rem;
+        }
+        footer {
+            background: #35ce8d;
+            color: #f6f8fe;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        /* Sports Widget Styles (Widescreen version) */
+        .sports-widget-container {
+            max-width: 100%; /* Allow sports widget to take up full width */
+            margin: 2rem 0;
+        }
+        .sports-widget {
+            border: 2px solid #35ce8d; /* Primary color border */
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background: #f6f8fe;
+        }
+        .sports-widget .widget-header {
+            background-color: #2441b1; /* Secondary color */
+            color: #f6f8fe; /* Light text on dark background */
+            text-align: center; /* Center-align text */
+            padding: 1.5rem;
+            font-size: 1.5rem;
+        }
+        .sports-widget .match {
+            padding: 1.5rem;
+            border-bottom: 1px solid #35ce8d;
+        }
+        .sports-widget .match:last-child {
+            border-bottom: none;
+        }
+        .sports-widget .match .teams {
+            display: flex;
+            justify-content: space-between; /* Center-align text horizontally */
+            align-items: center;
+            font-size: 1.25rem;
+        }
+        .sports-widget .match .teams span {
+            font-weight: bold;
+        }
+        .sports-widget .match .time {
+            text-align: center; /* Center-align time text */
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
+            color: #2441b1; /* Secondary color */
+        }
+        .sports-widget .live-badge {
+            background: #35ce8d;
+            color: #f6f8fe;
+            padding: 0.2rem 0.75rem;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-left: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>The World Telegram News</h1>
+        <p>Transparent, Truthful, Timeless</p>
+    </header>
+
+    <nav>
+        <a href="#featured">Home</a>
+        <a href="#local">Local News</a>
+        <a href="#world">World News</a>
+        <a href="#sports">Sports</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+      <section id="featured" class="featured">
+    <h2>Featured Article</h2>
+    <p><strong><span class="breaking-text">Breaking:</span></strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis sapien eget metus tincidunt faucibus.</p>
+</section>
+
+<style>
+    .breaking-text {
+        background: linear-gradient(to right, #850000, #e50000); /* Deep red to light red gradient */
+        -webkit-background-clip: text;
+        color: transparent; /* Make the text transparent to show the gradient */
+    }
+</style>
+
+        <section id="local" class="news-section">
+            <h3>Local News</h3>
+            <div class="article">
+                <h4><a href="article1.html">Lorem Ipsum: Local Event Highlights</a></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed magna at orci gravida volutpat.</p>
+            </div>
+            <div class="article">
+                <h4><a href="article2.html">Lorem Ipsum: New Initiatives Announced</a></h4>
+                <p>Phasellus eu augue nec dui vestibulum mollis vel at augue. Integer malesuada fermentum massa.</p>
+            </div>
+        </section>
+
+        <section id="world" class="news-section">
+            <h3>World News</h3>
+            <div class="article">
+                <h4><a href="article3.html">Lorem Ipsum: Global Summit Update</a></h4>
+                <p>Donec consequat neque eu nunc tincidunt, eget consequat ex dignissim.</p>
+            </div>
+            <div class="article">
+                <h4><a href="article4.html">Lorem Ipsum: Breakthrough Technology</a></h4>
+                <p>Mauris at erat vel justo viverra condimentum. Integer quis ex id est posuere malesuada.</p>
+            </div>
+        </section>
+
+        <section id="sports" class="news-section">
+            <h3>Sports</h3>
+            
+                    <!-- Sports Widget Start (under Featured Article) -->
+        <div class="sports-widget-container">
+            <div class="sports-widget">
+                <div class="widget-header">🏀 Sports Update</div>
+                <div class="match">
+                    <div class="teams">
+                        <span>Buffalo State</span>
+                        <span>80</span>
+                    </div>
+                    <div class="teams">
+                        <span>Niagara College</span>
+                        <span>75</span>
+                    </div>
+                    <div class="time">Final <span class="live-badge">LIVE</span></div>
+                </div>
+                <div class="match">
+                    <div class="teams">
+                        <span>Tonawanda Tigers</span>
+                        <span>70</span>
+                    </div>
+                    <div class="teams">
+                        <span>North Hawks</span>
+                        <span>68</span>
+                    </div>
+                    <div class="time">4th Quarter - 02:15</div>
+                </div>
+                <div class="match">
+                    <div class="teams">
+                        <span>Hamburg Heroes</span>
+                        <span>45</span>
+                    </div>
+                    <div class="teams">
+                        <span>Cheektowaga Wolves</span>
+                        <span>50</span>
+                    </div>
+                    <div class="time">Upcoming: 7:00 PM</div>
+                </div>
+            </div>
+        </div>
+        <!-- Sports Widget End -->
+
+
+            <div class="article">
+                <h4><a href="article5.html">Lorem Ipsum: Sports Championship Recap</a></h4>
+                <p>Sed facilisis lorem vel orci porttitor, non scelerisque felis congue. Duis auctor mi sed metus facilisis.</p>
+            </div>
+            <div class="article">
+                <h4><a href="article6.html">Lorem Ipsum: Upcoming Matches</a></h4>
+                <p>Integer hendrerit, purus quis malesuada feugiat, nulla turpis tristique libero, ut venenatis orci urna eget urna.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 The World Telegram News. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
